@@ -21,6 +21,11 @@ p, td, li {
   color: #eaeaea;
 }
 
+p.stars {
+  display:inline;
+  color: #fce38a;
+}
+
 a {
   color: #08d9d6;
 }
