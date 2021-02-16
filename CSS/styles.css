@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe2e2;
+  background-color: #252a34;
 }
 hr {
   border-style: none;
@@ -11,4 +11,20 @@ hr {
 }
 img {
   height: 200px;
+}
+
+h1, h3, th, label {
+  color: #ff2e63;
+}
+
+p, td, li {
+  color: #eaeaea;
+}
+
+a {
+  color: #08d9d6;
+}
+
+a:visited {
+  color: #00adb5;
 }
