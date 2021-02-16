@@ -21,7 +21,7 @@ p, td, li {
   color: #eaeaea;
 }
 
-p.stars {
+.stars {
   display:inline;
   color: #fce38a;
 }
@@ -32,4 +32,9 @@ a {
 
 a:visited {
   color: #00adb5;
+}
+
+* {
+ /*font: 100% calibri,helvetica,sans-serif;*/
+ font-family: system-ui;
 }
