@@ -4,13 +4,10 @@ body {
   background-color: #222831;
   margin: 0;
   text-align: center;
-}
-
-* {
- /*font: 100% calibri,helvetica,sans-serif;*/
- /*font-family: system-ui;*/
- font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
- color: #eaeaea;
+   /*font: 100% calibri,helvetica,sans-serif;*/
+   /*font-family: system-ui;*/
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  color: #eaeaea;
 }
 
 
@@ -24,17 +21,17 @@ body {
   overflow: hidden;
 }
 
-.middle-container {
-  /*background-color: #00adb5;
+/*.middle-container {
+  background-color: #00adb5;
   height: 200px;
-  width: 200px;*/
-}
+  width: 200px;
+}*/
 
-.bottom-container {
-  /*background-color: #eeeeee;
+/*.bottom-container {
+  background-color: #eeeeee;
   height: 200px;
-  width: 200px;*/
-}
+  width: 200px;
+}*/
 
 .introduction {
   padding-bottom: 50px;
