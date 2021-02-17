@@ -127,15 +127,15 @@ a:hover {
 .cloud-left {
   height: 6%;
   position: absolute;
-  bottom: 45%;
+  bottom: 40%;
   left: 5%;
 }
 
 .cloud-right {
   height: 6.5%;
   position: absolute;
-  right: 5%;
-  bottom: 50%;
+  right: 2%;
+  bottom: 55%;
 }
 
 .email-image {
