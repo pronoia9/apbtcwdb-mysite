@@ -42,26 +42,28 @@ body {
 }
 
 .cloud-1 {
+  height: 10%;
   position: absolute;
-  top: 7%;
-  left: 7%;
+  left: 5%;
+  bottom: 75%;
 }
 
 .cloud-2 {
+    height: 10%;
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     left: 5%;
 }
 
 .cloud-3 {
-  height: 45px;
+  height: 10%;
   position: absolute;
   right: 5%;
-  bottom: 65%;
+  bottom: 50%;
 }
 
-.name-image {
-  height: 100px;
+.amsterdam3 {
+  height: 125px;
 }
 
 /**************** TEXT ****************/
