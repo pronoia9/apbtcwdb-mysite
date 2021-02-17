@@ -9,26 +9,26 @@ body {
 
 h1 {
   color: #ff2e63;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h2 {
   color: #ff2e63;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h3 {
   color: #00adb5;
-  font-size: 1.75em;
+  font-size: 1.75rem;
 }
 
 h4 {
   color: #00adb5;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -144,9 +144,9 @@ a:hover {
 
 .email-image {
   position: relative;
-  top: 0.2em;
-  left: 0.15em;
-  width: 4%;
+  top: 0.1em;
+  right: 7em;
+  width: 6%;
 }
 
 /**************** TEXT ****************/
@@ -169,11 +169,11 @@ a:hover {
   font-family: 'Amsterdam';
   font-weight: 300;
   margin: 0;
-  font-size: 10em;
+  font-size: 10rem;
   /*font-family: 'Sacramento';
     font-weight: 300;
     margin: 0;
-    font-size: 5.625em;*/
+    font-size: 5.625rem;*/
 }
 
 .no-margin {
