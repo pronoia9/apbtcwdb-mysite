@@ -1,40 +1,17 @@
+/******************************** TAG SELECTORS ********************************/
+
 body {
   background-color: #252a34;
-}
-hr {
-  border-style: none;
-  border-top: 7px dotted #f6f6f6;
-  /*border-top-style: dotted;
-  border-color: #f6f6f6;
-  border-width: 7%;*/
-  width: 7%;
-}
-img {
-  height: 200px;
-}
-
-h1, h3, th, label {
-  color: #ff2e63;
-}
-
-p, td, li {
-  color: #eaeaea;
-}
-
-.stars {
-  display:inline;
-  color: #fce38a;
-}
-
-a {
-  color: #08d9d6;
-}
-
-a:visited {
-  color: #00adb5;
 }
 
 * {
  /*font: 100% calibri,helvetica,sans-serif;*/
  font-family: system-ui;
 }
+
+
+/******************************* CLASS SELECTORS *******************************/
+
+
+
+/******************************** ID SELECTORS *********************************/
