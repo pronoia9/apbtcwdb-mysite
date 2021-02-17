@@ -138,6 +138,10 @@ a:hover {
   bottom: 55%;
 }
 
+.bitmoji {
+  width: 30%;
+}
+
 .email-image {
   position: relative;
   top: 0.2em;
