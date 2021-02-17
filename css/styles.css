@@ -56,15 +56,15 @@ body {
 
 .cloud-2 {
     position: absolute;
-    bottom: 245px;
-    left: 75px;
+    bottom: 45%;
+    left: 5%;
 }
 
 .cloud-3 {
   height: 45px;
   position: absolute;
-  right: 25px;
-  bottom: 300px;
+  right: 5%;
+  bottom: 65%;
 }
 
 .name-image {
