@@ -1,18 +1,68 @@
 /******************************** TAG SELECTORS ********************************/
-
 body {
   background-color: #393e46;
   margin: 0;
   text-align: center;
-   /*font: 100% calibri,helvetica,sans-serif;*/
-   /*font-family: system-ui;*/
-  font-family: 'HelveticaNeue Light',"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family: 'Raleway', brandon-grotesque, 'HelveticaNeue Light', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, system-ui;
   color: #eaeaea;
 }
 
+h1 {
+  color: #ff2e63;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #ff2e63;
+  font-size: 2.25em;
+}
+
+h3 {
+  color: #00adb5;
+  font-size: 2em;
+}
+
+h4 {
+  color: #00adb5;
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: block;
+  float: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 50%;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+a:visited {
+  color: #eaeaea;
+}
+
+a:hover {
+  color: #a4ebf3;
+}
 
 /******************************* CLASS SELECTORS *******************************/
-
 /**************** DIVS ****************/
 .top-container {
   background-color: #222831;
@@ -21,49 +71,78 @@ body {
   overflow: hidden;
 }
 
-/*.middle-container {
-}
-
-.bottom-container {
-}*/
-
 .introduction {
-  padding-bottom: 50px;
+  padding-bottom: 10%;
   max-width: 100%;
 }
 
+.middle-container {
+  background-color: #222831;
+}
+
+.profile {
+  padding: 5%;
+}
+
+.skills {
+  padding: 5%;
+}
+
+.skill-row {}
+
+.contact-me {
+  padding: 5%;
+}
+
+.bottom-container {
+  background-color: #393e46;
+  padding: 5%;
+}
+
+.footer-list {
+}
+
+
 /*************** IMAGES ***************/
+.amsterdam3 {
+  width: 40%;
+}
+
 .city-image {
-  height: 200px;
+  /*height: 200px;*/
+  width: 600%;
 }
 
 .cloud-image {
   height: 50px;
 }
 
-.cloud-1 {
-  height: 10%;
+.cloud-top {
+  height: 7%;
   position: absolute;
   left: 5%;
-  bottom: 75%;
+  bottom: 85%;
 }
 
-.cloud-2 {
-    height: 10%;
-    position: absolute;
-    bottom: 40%;
-    left: 5%;
+.cloud-left {
+  height: 6%;
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
 }
 
-.cloud-3 {
-  height: 10%;
+.cloud-right {
+  height: 6.5%;
   position: absolute;
   right: 5%;
   bottom: 50%;
 }
 
-.amsterdam3 {
-  height: 125px;
+.email-image {
+  position: relative;
+  top: 0.2em;
+  left: 0.15em;
+  width: 4%;
 }
 
 /**************** TEXT ****************/
@@ -72,21 +151,30 @@ body {
 }
 
 .red {
-    color: #ff2e63;
+  color: #ff2e63;
 }
 
-.amsterdam {
+.button {
+  background-color: #00adb5;
+  display: inline-block;
+  padding: 1em;
+  width: 50%;
+}
+
+.intro {
   font-family: 'Amsterdam';
   font-weight: 300;
   margin: 0;
-  font-size: 150px;
+  font-size: 10em;
+  /*font-family: 'Sacramento';
+    font-weight: 300;
+    margin: 0;
+    font-size: 5.625em;*/
 }
 
-.sacramento {
-  font-family: 'Sacramento';
-  font-weight: 300;
+.no-margin {
   margin: 0;
-  font-size: 90px;
 }
+
 
 /******************************** ID SELECTORS *********************************/
