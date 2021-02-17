@@ -21,6 +21,7 @@ body {
   background-color: #393e46;
   padding-top: 15%;
   position: relative;
+  overflow: hidden;
 }
 
 .middle-container {
@@ -37,6 +38,7 @@ body {
 
 .introduction {
   padding-bottom: 50px;
+  max-width: 100%;
 }
 
 /*************** IMAGES ***************/
