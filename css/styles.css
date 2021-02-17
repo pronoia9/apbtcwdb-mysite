@@ -1,7 +1,7 @@
 /******************************** TAG SELECTORS ********************************/
 
 body {
-  background-color: #222831;
+  background-color: #393e46;
   margin: 0;
   text-align: center;
    /*font: 100% calibri,helvetica,sans-serif;*/
@@ -15,22 +15,16 @@ body {
 
 /**************** DIVS ****************/
 .top-container {
-  background-color: #393e46;
+  background-color: #222831;
   padding-top: 15%;
   position: relative;
   overflow: hidden;
 }
 
 /*.middle-container {
-  background-color: #00adb5;
-  height: 200px;
-  width: 200px;
-}*/
+}
 
-/*.bottom-container {
-  background-color: #eeeeee;
-  height: 200px;
-  width: 200px;
+.bottom-container {
 }*/
 
 .introduction {
@@ -55,7 +49,7 @@ body {
 
 .cloud-2 {
     position: absolute;
-    bottom: 45%;
+    bottom: 35%;
     left: 5%;
 }
 
