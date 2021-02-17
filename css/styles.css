@@ -6,7 +6,7 @@ body {
   text-align: center;
    /*font: 100% calibri,helvetica,sans-serif;*/
    /*font-family: system-ui;*/
-  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family: 'HelveticaNeue Light',"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   color: #eaeaea;
 }
 
@@ -79,5 +79,18 @@ body {
     color: #ff2e63;
 }
 
+.amsterdam {
+  font-family: 'Amsterdam';
+  font-weight: 300;
+  margin: 0;
+  font-size: 150px;
+}
+
+.sacramento {
+  font-family: 'Sacramento';
+  font-weight: 300;
+  margin: 0;
+  font-size: 90px;
+}
 
 /******************************** ID SELECTORS *********************************/
