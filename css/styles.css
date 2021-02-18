@@ -1,4 +1,4 @@
-/******************************** TAG SELECTORS ********************************/
+/*********************************** GENERAL ***********************************/
 body {
   background-color: #393e46;
   margin: 0;
@@ -28,7 +28,7 @@ h4 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 ul {
@@ -68,8 +68,34 @@ hr {
   width: 5%;
 }
 
-/******************************* CLASS SELECTORS *******************************/
-/**************** DIVS ****************/
+/****************************** CLASS SELECTORS ********************************/
+.bitmoji {
+  width: 300px;
+}
+
+.blue {
+  color: #00adb5;
+}
+
+.red {
+  color: #ff2e63;
+}
+
+.button {
+  background-color: #00adb5;
+  display: inline-block;
+  padding: 1em;
+  width: 50%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+/******************************** ID SELECTORS *********************************/
+
+
+/*********************************** HEADING ***********************************/
 .top-container {
   background-color: #222831;
   padding-top: 15%;
@@ -82,51 +108,20 @@ hr {
   max-width: 100%;
 }
 
-.middle-container {
-  background-color: #222831;
+.intro {
+  font-family: 'Amsterdam';
+  font-weight: 500;
+  margin: 0;
+  font-size: 10rem;
+  /*font-family: 'Sacramento';
+    font-weight: 300;
+    margin: 0;
+    font-size: 5.625rem;*/
 }
 
-.profile {
-  padding: 5%;
-}
-
-.skills {
-  padding: 5%;
-}
-
-.skill-row {
-  margin: auto;
-  padding: 5% 0;
-  width: 75%;
-}
-
-.skill-row1 {
-  text-align: left;
-}
-
-.skill-row2 {
-  text-align: right;
-}
-
-.contact-me {
-  padding: 5%;
-  padding-bottom: 7%;
-}
-
-.bottom-container {
-  background-color: #393e46;
-  padding: 5%;
-}
-
-.footer-list {
-}
-
-
-/*************** IMAGES ***************/
-.amsterdam3 {
+/*.amsterdam3 {
   width: 40%;
-}
-
+}*/
 .city-image {
   /*height: 200px;*/
   width: 600%;
@@ -157,51 +152,105 @@ hr {
   bottom: 55%;
 }
 
-.bitmoji {
-  width: 300px;
+/************************************ MIDDLE ***********************************/
+.middle-container {
+  background-color: #222831;
 }
 
-.coding {
-  float: left;
-  margin: 0 5% 0 0;
-  width: 200px;
+/************************************* HI **************************************/
+.profile {
+  padding: 5%;
 }
 
-.cooking {
-  float: right;
-  margin: 0 0 0 5%;
-  width: 200px;
-}
-
-/**************** TEXT ****************/
-.blue {
-  color: #00adb5;
-}
-
-.red {
-  color: #ff2e63;
-}
-
-.button {
-  background-color: #00adb5;
-  display: inline-block;
-  padding: 1em;
-  width: 50%;
-}
-
-.intro {
-  font-family: 'Amsterdam';
-  font-weight: 300;
-  margin: 0;
-  font-size: 10rem;
-  /*font-family: 'Sacramento';
-    font-weight: 300;
-    margin: 0;
-    font-size: 5.625rem;*/
-}
-
-.no-margin {
+/*********************************** SKILLS ************************************/
+.skills {
+  padding: 5%;
   margin: 0;
 }
 
-/******************************** ID SELECTORS *********************************/
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  position: relative;
+  max-width: 1176px;
+  margin: 0 auto;
+}
+
+.skill-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skill-image {
+  max-width: 250px;
+}
+
+/********* CODING *********/
+.skill-coding {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-coding h4 {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.skill-coding p {
+  line-height: 1.5;
+  max-width: 500px;
+  text-align: left;
+}
+
+.skill-coding-image-container {
+  margin-bottom: 2rem;
+  max-width: 300px;
+  order: 0;
+}
+
+.skill-coding-image-container .coding-image {
+  width: 100%;
+}
+
+/******** COOKING *********/
+.skill-cooking {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-cooking h4 {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.skill-cooking p {
+  line-height: 1.5;
+  max-width: 500px;
+  text-align: right;
+}
+
+.skill-cooking-image-container {
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+
+.skill-cooking-image-container .cooking-image {
+  width: 100%;
+}
+
+/*********************************** CONTACT ***********************************/
+.contact-me {
+  padding: 5%;
+  padding-bottom: 7%;
+}
+
+/*********************************** FOOTER ************************************/
+.bottom-container {
+  background-color: #393e46;
+  padding: 5%;
+}
