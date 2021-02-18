@@ -81,13 +81,6 @@ hr {
   color: #ff2e63;
 }
 
-.button {
-  background-color: #00adb5;
-  display: inline-block;
-  padding: 1em;
-  width: 50%;
-}
-
 .no-margin {
   margin: 0;
 }
@@ -247,6 +240,13 @@ hr {
 .contact-me {
   padding: 5%;
   padding-bottom: 7%;
+}
+
+.button {
+  background-color: #00adb5;
+  display: inline-block;
+  padding: 1em;
+  width: 35%;
 }
 
 /*********************************** FOOTER ************************************/
