@@ -13,6 +13,7 @@
       font-family: Amsterdam;
       src: url('fonts/Amsterdam.ttf') format('truetype');
     }
+
     @font-face {
       font-family: HelveticaNeue Light;
       src: url('fonts/HelveticaNeue Light.ttf') format('truetype');
@@ -25,17 +26,17 @@
   <div class="top-container">
     <img class="cloud-image cloud-top" src="images/cloud_1.webp" alt="cloud-image">
     <div class="introduction">
-      <!--<img class="amsterdam3" src="images/im_jay_amsterdam-three_ff2e63.png" alt="cloud-image">-->
       <h1 class="intro">I'm Jay.</h1>
-      <!--<h1 class="intro">I'm Jay.</h1>-->
       <h4 class="no-margin">a web developer.</h4>
     </div>
     <img class="cloud-image cloud-left" src="images/cloud_2.webp" alt="cloud-image">
     <img class="cloud-image cloud-right" src="images/cloud_3.webp" alt="cloud-image">
     <img class="city-image" src="images/digitally_hand_drawn_yellow_buildings_outline.png" alt="mountain-image">
   </div>
+
   <!---------------------- MIDDLE CONTAINER --------------------->
   <div class="middle-container">
+    <!--------------------- PROFILE -------------------->
     <div class="profile">
       <img class="bitmoji" src="images/bitmoji/smile_circle.png" alt="">
       <h2>Hi.</h2>
@@ -43,22 +44,39 @@
       <p>Not as much as coffee though.</p>
     </div>
     <hr>
-
+    <!--------------------- SKILLS --------------------->
     <div class="skills">
       <h2>Things I Can Do.</h2>
-      <div class="skill-row skill-row1">
-        <img class="bitmoji coding" src="images/bitmoji/asdfghjkl_circle.png" alt="">
-        <h4>Lorem & Ipsum</h4>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-      </div>
-      <div class="skill-row skill-row2">
-        <img class="bitmoji cooking" src="images/bitmoji/baking.png" alt="">
-        <h4>Lorem Ipsum Dolor</h4>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      <div class="skills-container">
+        <!----------- CODING ----------->
+        <section class="skill-coding">
+          <div class="skill-flex">
+            <div class="skill-coding-information">
+              <h4>Information</h4>
+              <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            </div>
+            <div class="skill-coding-image-container">
+              <img class="skill-image coding-image" src="images/bitmoji/asdfghjkl_circle.png" alt="">
+            </div>
+          </div>
+        </section>
+        <!----------- COOKING ---------->
+        <section class="skill-cooking">
+          <div class="skill-flex">
+            <div class="skill-cooking-image-container">
+              <img class="skill-image cooking-image" src="images/bitmoji/baking.png" alt="">
+            </div>
+            <div class="skill-cooking-information">
+              <h4>Lorem Ipsum Dolor</h4>
+              <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
     <hr>
 
+    <!------------------- CONTACT ME ------------------->
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>Lorem ipsum dolor sit amet, non elit.</h3>
@@ -66,6 +84,7 @@
       <a class="button" href="mailto:jayansin9@gmail.com">CONTACT ME</a>
     </div>
   </div>
+
   <!---------------------- BOTTOM CONTAINER --------------------->
   <div class="bottom-container">
     <ul class="footer-list">
