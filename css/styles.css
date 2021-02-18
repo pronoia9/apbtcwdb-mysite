@@ -158,17 +158,19 @@ hr {
 }
 
 .bitmoji {
-  width: 30%;
+  width: 300px;
 }
 
 .coding {
   float: left;
   margin: 0 5% 0 0;
+  width: 200px;
 }
 
 .cooking {
   float: right;
   margin: 0 0 0 5%;
+  width: 200px;
 }
 
 /**************** TEXT ****************/
@@ -201,6 +203,5 @@ hr {
 .no-margin {
   margin: 0;
 }
-
 
 /******************************** ID SELECTORS *********************************/
